@@ -1,0 +1,3 @@
+lo_iscompleted: =If(IsBlank(lo_datecompletion), false, true)
+lo_issueage: =DateDiff(createdon, Now(), TimeUnit.Days)
+lo_reportingdays: =DateDiff(lo_dateobserved, Now(), TimeUnit.Days)
